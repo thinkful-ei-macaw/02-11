@@ -7,7 +7,7 @@ function personMaker() {
     // replace `null` with a function that uses self reference to return
     // full name
     fullName: function () {
-      // console.log(`${this.firstName} ${this.lastName}`);
+      console.log(`${this.firstName} ${this.lastName}`);
       return `${this.firstName} ${this.lastName}`;
     },
       
