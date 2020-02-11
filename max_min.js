@@ -13,5 +13,14 @@ function max(numbers) {
 console.log(max([2, 4, 8]));
   
 function min(numbers) {
-  // your code here
+  let minNumber = numbers[0];
+  let i = 0;
+  while ( i < numbers.length) {
+    if (numbers[i] < minNumber) {
+      minNumber = numbers[i];
+    }
+    i++;
+  }
+  return minNumber;
 }
+console.log(min([2, 4, 8]));
