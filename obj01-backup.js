@@ -38,3 +38,25 @@ const foodObj = {
 }
 
 console.log(foodObj.meals[3]); // !!!!!!!!
+
+
+// Object 04 EXERCISE
+
+const softwareEngi = [
+  {
+    name: 'Brad',
+    jobTitle: 'Intern'
+  },
+  {
+    name: 'Jess',
+    jobTitle: 'Boss'
+  },
+  {
+    name: 'Sacha',
+    jobTitle: 'developer'
+  }
+] 
+
+for (const obj in softwareEngi) {
+  console.log(`${softwareEngi[obj].name}: ${softwareEngi[obj].jobTitle}`);
+}
