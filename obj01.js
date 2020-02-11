@@ -10,3 +10,17 @@ const loaf = {
 
 console.log(loaf);
 console.log(loaf.hydration());
+
+
+const obj = {
+  foo: 'chocolate',
+  bar: 'wood',
+  fum: 'fie',
+  quux: 'fluxx',
+  spam: 'gross'
+}
+
+for (const key in obj) {
+  console.log(`${key}:${obj[key]}`);
+}
+
