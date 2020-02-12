@@ -1,11 +1,10 @@
 'use strict';
 
-// Sacha: doing the remaining drills 5—8 alone
-// from https://courses.thinkful.com/ei-js-v1/checkpoint/10
-
 ///////////////////////////////////
 // 5. Properties that aren't there
 ///////////////////////////////////
+
+// from https://courses.thinkful.com/ei-js-v1/checkpoint/10
 
 const humanResources = [
   {
